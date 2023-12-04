@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg_color">#F6F6E9</color>
+    <color name="dark_green">#457D58</color>
+    <color name="dark_grey">#272727</color>
+    <color name="bg_green">#457D58</color>
+    <color name="light_green">#87B697</color>
+    <color name="bg_light_gray">#F6F6E9</color>
+    <color name="dark_brown">#272727</color>
+
+    <!-- Cores Despesas!-->
+    <color name="light_purple">#C777DD</color>
+    <color name="purple">#CB6CE6</color>
+    <color name="dark_purple">#BC5AD6</color>
+
+    <!-- Cores Receitas!-->
+    <color name="light_blue">#73B4D4</color>
+    <color name="blue">#4694BB</color>
+    <color name="dark_blue">#177DAF</color>
+</resources>

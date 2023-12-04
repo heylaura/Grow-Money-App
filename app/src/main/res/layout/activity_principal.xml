@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".controller.PrincipalActivityController"
+    android:background="@color/bg_light_gray">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_principal" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/ic_add"
+        app:menu_colorNormal="#457D58"
+        app:menu_colorPressed="#86B295"
+        fab:menu_fab_label="Menu">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_despesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="adicionarDespesa"
+            android:src="@drawable/ic_remove"
+            fab:fab_colorNormal="@color/light_purple"
+            fab:fab_colorPressed="@color/purple"
+            fab:fab_size="mini"
+            fab:fab_label="Despesa" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_receita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="adicionarReceita"
+            android:src="@drawable/ic_add"
+            fab:fab_colorNormal="@color/light_blue"
+            fab:fab_colorPressed="@color/blue"
+            fab:fab_size="mini"
+            fab:fab_label="Receita" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "766837816968",
+    "firebase_url": "https://grow-money-app-1151c-default-rtdb.firebaseio.com",
+    "project_id": "grow-money-app-1151c",
+    "storage_bucket": "grow-money-app-1151c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766837816968:android:8ba77b398e833adaa3693d",
+        "android_client_info": {
+          "package_name": "com.example.growmoneyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMImp2JBQzPmuxKe-7hRELPIjdxBAljCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
